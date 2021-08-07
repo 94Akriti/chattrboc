@@ -4,7 +4,7 @@ var extract = require('./extract');
 
 var handleError = function(err, res) {
   res.writeHead(404);
-  res.end(data);
+  res.end();
 };
 
 var server = http.createServer(function(req, res) {
